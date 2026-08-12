@@ -577,7 +577,6 @@ Interested in:
 
 ### Connect
 
-- 💻 [GitHub](https://github.com/Shraddha-max)
 - 🔗 [LinkedIn](https://linkedin.com/in/shraddha-gobare)
 
 ---
