@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Local models
+models/*
+!models/.gitkeep
+
+# Uploaded personal data
+data/resumes/*
+data/job_descriptions/*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
