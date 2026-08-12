@@ -2,16 +2,17 @@ import streamlit as st
 import json
 from datetime import datetime
 
-from src.src import extract_text_from_pdf
-from src.src.text_preprocessing import preprocess_text
-from src.src.skill_extractor import extract_skills, compare_skills
-from src.src.similarity import calculate_similarity, get_similarity_label
-from src.src.llm_analyzer import analyze_with_llm
-from src.src.report_generator import (
+from src.pdf_parser import extract_text_from_pdf
+from src.text_preprocessing import preprocess_text
+from src.skill_extractor import extract_skills, compare_skills
+from src.similarity import calculate_similarity, get_similarity_label
+from src.llm_analyzer import analyze_with_llm
+from src.report_generator import (
     create_report,
     report_to_json,
     create_download_filename
 )
+
 
 
 # ---------------------------------------------------------
